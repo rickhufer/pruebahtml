@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/cuarupuk/public_html/pruebahtml
-    - /bin/cp -R pruebahtml/ $DEPLOYPATH
+    - export DEPLOYPATH=/home/cuarupuk/public_html
+    - /bin/cp -R /home/cuarupuk/repositories/pruebahtml/ $DEPLOYPATH
